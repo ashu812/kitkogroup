@@ -162,9 +162,9 @@ function Hero() {
             Bridging <span className="accent">Engineering</span> Precision with Commercial Viability
           </h1>
           <p className="hero-description">
-            KITKO GROUP is a premier technocrat-led value-add trading house headquartered in Raipur, India.
-            We specialize in the strategic procurement and distribution of critical components and raw materials
-            for the Mining, Metal, and Energy sectors.
+            KITKO GROUP is a premier technocrat-led value-add trading house of Indian origin,
+            headquartered in Ordos, China. We specialize in the strategic procurement and distribution
+            of critical components and raw materials for the Mining, Metal, and Energy sectors.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn-primary" id="hero-cta-primary">
@@ -329,30 +329,30 @@ function Presence() {
           </p>
         </div>
         <div className="presence-grid">
-          <div className={`presence-card fade-in fade-in-delay-1 ${isVisible ? 'visible' : ''}`} id="presence-india">
+          <div className={`presence-card fade-in fade-in-delay-1 ${isVisible ? 'visible' : ''}`} id="presence-china">
+            <div className="presence-card-flag">🇨🇳</div>
+            <h3>China Operations</h3>
+            <div className="presence-card-subtitle">Ordos, Inner Mongolia · HQ</div>
+            <p>
+              We maintain direct, audited relationships with Tier-1 manufacturers. Our headquarters
+              in Ordos ensures Quality Verification, Cross-Border Compliance, and on-ground
+              oversight for Indian firms requiring specialized intermediate goods.
+            </p>
+            <div className="presence-card-tag">
+              📍 Headquarters
+            </div>
+          </div>
+          <div className={`presence-card fade-in fade-in-delay-2 ${isVisible ? 'visible' : ''}`} id="presence-india">
             <div className="presence-card-flag">🇮🇳</div>
             <h3>India Operations</h3>
-            <div className="presence-card-subtitle">Raipur, Chhattisgarh · HQ</div>
+            <div className="presence-card-subtitle">Raipur, Chhattisgarh · Regional Office</div>
             <p>
               Leveraging the 2026 National Critical Mineral Mission, we support the rapid
               operationalization of domestic mineral blocks through local technical advisory
               and parts distribution.
             </p>
             <div className="presence-card-tag">
-              📍 Headquarters
-            </div>
-          </div>
-          <div className={`presence-card fade-in fade-in-delay-2 ${isVisible ? 'visible' : ''}`} id="presence-china">
-            <div className="presence-card-flag">🇨🇳</div>
-            <h3>China Operations</h3>
-            <div className="presence-card-subtitle">Direct Manufacturer Relationships</div>
-            <p>
-              We maintain direct, audited relationships with Tier-1 manufacturers. Our on-the-ground
-              presence in China ensures Quality Verification and Cross-Border Compliance for Indian
-              firms requiring specialized intermediate goods.
-            </p>
-            <div className="presence-card-tag">
-              🏭 On-Ground Presence
+              🏢 Regional Office
             </div>
           </div>
         </div>
@@ -511,7 +511,8 @@ function Footer() {
           </div>
           <div className="footer-column">
             <h4>Contact</h4>
-            <a href="#">Raipur, Chhattisgarh, India</a>
+            <a href="#">HQ: Ordos, Inner Mongolia, China</a>
+            <a href="#">Office: Raipur, Chhattisgarh, India</a>
             <a href="https://www.kitcoindia.com" target="_blank" rel="noopener noreferrer">kitcoindia.com</a>
             <a href="https://www.kitcoindia.in" target="_blank" rel="noopener noreferrer">kitcoindia.in</a>
           </div>
