@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 
 /* ===== SVG Icons ===== */
@@ -540,6 +541,7 @@ function Footer() {
 function App() {
   return (
     <>
+      <Analytics />
       <Navbar />
       <Hero />
       <About />
