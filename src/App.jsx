@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 
 /* ===== SVG Icons ===== */
@@ -549,6 +550,7 @@ function App() {
       <Sectors />
       <CTA />
       <Footer />
+      <Analytics />
     </>
   )
 }
